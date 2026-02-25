@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="container nav-inner">
-        <button className="nav-logo" onClick={() => scrollTo('hero')}>AK</button>
+        <button className="nav-logo" onClick={() => scrollTo('hero')}>AKR</button>
         <ul className="nav-links">
           {links.map(({ label, id }) => (
             <li key={label}>
